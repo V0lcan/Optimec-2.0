@@ -306,12 +306,76 @@ nav a {
 }
 
 .col21 {
-    width: 40vw;
-    padding: 5rem;
+    width: 100vw;
+    height: 55rem;
+    display: flex;
+}
+
+.col21 div {
+    margin: 5rem 0 0 3.5vw;
+    width: 25rem;
+    height: 45rem;
+    background-image: url(https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 10px 10px #888888;
+    filter: grayscale(1);
+    transition: 0.4s ease-in-out;
+    overflow-y: hidden;
+}
+
+
+
+.col21 div:nth-child(2) {
+    background-image: url(https://images.unsplash.com/photo-1605600659873-d808a13e4d2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
+}
+
+.col21 div:nth-child(3) {
+    background-image: url(https://images.unsplash.com/photo-1616170919057-5946e5f0c9f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTF8fHByb2R1Y3R8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+}
+
+.col21 div:nth-child(4) {
+    background-image: url(https://images.unsplash.com/photo-1553413077-190dd305871c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
+}
+
+.col21 div:nth-child(5) {
+    background-image: url(https://images.unsplash.com/photo-1597066157837-5084c251fa34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
+}
+
+.col21 div:hover {
+    box-shadow: 0px 10px 10px #888888;
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.col21 h1 {
+    font-size: 2rem;
+    padding: 35rem 1rem 1rem 1rem;
+    text-align: center;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+
+.col21 div:hover h1 {
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.col21 p {
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    visibility: hidden;
+    font-size: 1.5rem;
+    transition: 0.4s ease-in-out;
+    backdrop-filter: blur(10px);
+}
+
+.col21 div:hover p {
+    visibility: visible;
 }
 
 .col22 {
-    width: 40vw;
+    width: 0vw;
     padding: 5rem;
 }
 
@@ -347,8 +411,6 @@ footer p, a {
 /*PHONE*/
 @media only screen and (max-width: 600px) {
 
-    body {
-        overflow-y: visible;
-    }
+   
 
   }

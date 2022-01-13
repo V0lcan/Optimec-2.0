@@ -23,7 +23,7 @@ $('.counter').each(function() {
   
     {
   
-      duration: 1500,
+      duration: 1700,
       easing:'linear',
       step: function() {
         $this.text(Math.floor(this.countNum));
