@@ -29,6 +29,10 @@ h1 {
     font-family: 'Playfair Display', serif;
 }
 
+.noPhone {
+    visibility: hidden;
+}
+
 /*NAV*/
 nav {
     grid-area: header;
@@ -346,5 +350,23 @@ footer p, a {
 
 /*PHONE*/
 @media only screen and (max-width: 600px) {
-    
+
+    body {
+        overflow-y: hidden;
+    }
+
+    .noPhone {
+        visibility: visible;
+        background-color: white;
+        width: 100vw;
+        height: 100vh;
+        z-index: 9999;
+    }
+
+    .noPhone h1 {
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 45vh;
+    }
+
   }
