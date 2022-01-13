@@ -249,7 +249,7 @@ nav a {
     grid-area: "row2";
     width: 100vw;
     height: 55rem;
-    background-color: rgb(235, 235, 235);
+    background-image: url(../img/2.png);
 }
 
 .col11 {
@@ -312,9 +312,9 @@ nav a {
 }
 
 .col21 div {
-    margin: 5rem 0 0 3.5vw;
-    width: 25rem;
-    height: 45rem;
+    margin: 6rem 0 0 3.3vw;
+    width: 16vw;
+    height: 55vh;
     background-image: url(https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
     background-position: center;
     background-size: cover;
@@ -323,8 +323,6 @@ nav a {
     transition: 0.4s ease-in-out;
     overflow-y: hidden;
 }
-
-
 
 .col21 div:nth-child(2) {
     background-image: url(https://images.unsplash.com/photo-1605600659873-d808a13e4d2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
@@ -339,7 +337,7 @@ nav a {
 }
 
 .col21 div:nth-child(5) {
-    background-image: url(https://images.unsplash.com/photo-1597066157837-5084c251fa34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
+    background-image: url(../img/cardbg.png);
 }
 
 .col21 div:hover {
@@ -349,10 +347,10 @@ nav a {
 }
 
 .col21 h1 {
-    font-size: 2rem;
-    padding: 35rem 1rem 1rem 1rem;
+    font-size: 1vw;
+    padding: 35rem 1vw 1rem 1vw;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     transition: 0.4s ease-in-out;
 }
 
