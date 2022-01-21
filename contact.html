@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contactStyle.css">
     <link rel="icon" href="img/icon.png" type="icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +14,81 @@
     <title>Kontakt | Optimec</title>
 </head>
 <body>
-    <img src="img/work-in-progress.png" alt="Work in progress">
+    
+    <nav id="nav">
+        <a href="index.html" class="navImg">
+          <img src="img/logga.png" alt="Optimec logga">
+        </a>
+          <ul>
+              <li>
+               <a href="index.html">Hem</a>
+              </li>
+              <li>
+                <a href="index.html#skip1">Produkter</a>
+              </li>
+              <li>
+                <a href="index.html#skip2">Tjänster</a>
+              </li>
+              <li>
+                <a href="#">Policy</a>
+              </li>
+              <li>
+                <a href="sponsoring.html">Sponsring</a>
+               </li>
+               <li>
+                 <a href="contact.html">Kontakt</a>
+              </li>
+          </ul>
+        </nav>
+
+        <div class="contactContainer">
+            <div class="contactwrapper"> 
+                <div class="contact">
+                  <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2125.780638428097!2d12.041535816107826!3d57.80507223932269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46455fa165b634d7%3A0xabd98f7144b24fac!2sOptiMec%20AB!5e0!3m2!1ssv!2sse!4v1642513940904!5m2!1ssv!2sse" style="border:0;" allowfullscreen="" loading="lazy" id="gMap"></iframe>
+                  </div>
+
+                  <div class="form">
+                    <form action="mailto:albinsand@hotmail.se" method="post" enctype="text/plain">
+                      <h1>Kontakta oss</h1>
+                      <input type="text" id="name" name="Name" placeholder="Namn*" required><br>
+                      <input type="text" id="mail" name="E-mail" placeholder="E-post*" required><br>
+                      <input type="text" id="phone" name="Phone" placeholder="Telefon"><br>
+                      <input type="text" id="company" name="company" placeholder="Företag"><br>
+                      <textarea id="message" name="message" placeholder="Meddelande*" required></textarea><br>
+                      <input type="submit" value="Send">
+                    </form>
+                  </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="links">
+                  <h1>Länkar</h1>
+                  <a href="#skip1">Produkter</a><br><br>
+                  <a href="#skip2">Tjänster</a><br><br>
+                  <a href="sponsoring.html">Sponsring</a><br><br>
+                  <a href="contact.html">Kontakt</a>
+                </div>
+        
+                <div class="medias">
+                  <h1>Sociala medier</h1>
+                  <a href="">Facebook</a><br><br>
+                  <a href="">Instagram</a><br><br>
+                  <a href="">LinkedIn</a>
+                </div>
+        
+                <div class="footerContact">
+                  <h1>Kontakt</h1>
+                  <p>Telefon: +46 303 233011</p>
+                  <p>E-mail: anders@optimec.se</p>
+                  <p>Besöksadress: Liljegången 6, 449 33 Nödinge</p>
+                  <p>Leveransadress: Rävebergsvägen 120J, 424 67 Angered</p>
+                </div>
+        
+              </footer>
+        </div>
+
+
 </body>
 </html>
