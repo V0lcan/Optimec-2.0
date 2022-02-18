@@ -38,3 +38,8 @@ $('.counter').each(function() {
   
   });
   
+
+//P_NAV
+$(".nav_icon").click(function() {
+  $(".nav_links").toggle("50");
+});

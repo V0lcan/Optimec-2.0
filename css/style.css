@@ -250,6 +250,7 @@ nav a {
     width: 100vw;
     height: 55rem;
     background-image: url(../img/2.png);
+    background-position: top center;
 }
 
 .col11 {
@@ -407,8 +408,72 @@ footer p, a {
 }
 
 /*PHONE*/
-@media only screen and (max-width: 600px) {
+.p_body {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 
+@media only screen and (max-width: 600px) {
+    nav, .container1, .container2, footer {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
    
+    .parallax-wrapper {
+        visibility: hidden;
+    }
+
+    .p_body {
+        visibility: visible;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 200vh;
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .p_nav {
+        overflow: hidden;
+        background-color: rgb(66, 66, 66);
+        position: relative;
+        box-shadow: 0px 2px 5px rgba(53, 53, 53, 0.37);
+    }
+
+    .nav_links {
+        display: none;
+    }
+
+    .p_nav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .p_nav a.nav_icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .p_nav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    a.active {
+        color: white;
+        margin: 0;
+        padding: 3px;
+    }
 
   }
