@@ -437,6 +437,8 @@ footer p, a {
         height: 200vh;
         margin: auto;
         background-color: rgb(255, 255, 255);
+        overflow: scroll;
+        -webkit-overflow-scrolling: touch;
     }
 
     .p_nav {
@@ -484,7 +486,7 @@ footer p, a {
         margin: 0 auto;
         width: 90vw;
         height: auto;
-        padding-top: 7rem;
+        padding-top: 15vh;
     }
 
     .p_body1 p, h1 {
