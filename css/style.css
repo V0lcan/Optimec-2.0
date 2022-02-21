@@ -471,4 +471,25 @@ footer p, a {
         padding: 3px;
     }
 
+    .p_body1 {
+        width: 100vw;
+        height: 90vh;
+        background-image: url(../img/bg.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+
+    .p_body1 div {
+        margin: 0 auto;
+        width: 90vw;
+        height: auto;
+        padding-top: 7rem;
+    }
+
+    .p_body1 p, h1 {
+        color: white;
+        text-align: center;
+    }
+
   }
