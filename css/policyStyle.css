@@ -227,9 +227,9 @@ footer p, a {
     }
 
     .p_body1_part1 img {
-        width: 70vw;
+        width: 30rem;
         clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 96%);
-        margin-left: -115px;
+        margin-left: -145px;
     }
 
     .p_body1_part1 .text1 {
